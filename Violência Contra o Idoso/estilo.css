@@ -1,0 +1,190 @@
+/*Estilo Responsivo*/
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    margin-top: -70px;
+    height: 100%;
+    background-color:white;
+}
+
+@media (min-width:650px){
+    .container{
+        max-width: 1170px;
+        padding: 0;
+    }
+}
+
+body{
+    background-color:lightgray;
+}
+
+p{
+    text-align:justify;
+    margin-top: 24px;
+    padding-right: 10px;
+    line-height: 2em;
+    color: black;
+    text-indent: 3em;
+    font-family: arial;
+    font-size:18px;
+}
+
+h1{
+    color:black;
+    font-family: arial;
+    font-size:28px;
+    text-transform:uppercase;
+}
+
+h2{
+    color: black;
+    font-family: arial;
+    font-size:26px;
+    text-transform:uppercase;
+}
+
+/*Menu*/
+.menu{
+    list-style-type:none;
+    border-radius:40px;
+    font-family: arial;
+    position: fixed;
+    z-index: 3;
+    left: 6.5px;
+    float: right;
+}
+    
+.menu ul li{
+    float: left;
+}
+
+.menu ul{
+    text-transform:uppercase;
+    text-align: center;
+    list-style-type:none;
+}
+    
+.menu a{
+    color:black;
+    padding: 16px;
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 0px;
+    cursor: pointer;
+    text-align: center;
+    width: 201px;
+
+}
+    
+.menu ul ul{
+    position: fixed;
+    visibility: hidden;
+}
+    
+.menu ul li:hover ul{
+    visibility: visible;
+}
+    
+.menu ul ul li{
+    float: none;
+    margin-top: -0px;
+    margin-bottom: -3
+}
+    
+.menu ul li a:hover{
+    background-color: black;
+    color:white;
+}
+
+.menufundo{
+    position: absolute;
+    width: 100%;
+    top: 13%;
+    z-index: 4;
+    background-color: red;
+}
+
+/*Imagens*/
+.imagens{
+    width: 220px;
+    height: 170px;
+    float: left;
+    padding: 2%;
+    border-radius: 50%;
+    transition: all 0.4s easy-out;
+}
+
+.imagensR{
+    width: 220px;
+    height: 170px;
+    float: right;
+    padding: 2%;
+    border-radius: 50%;
+    transition: all 0.4s easy-out;
+}
+
+/*Formulário*/
+input[type="text"]{
+    border-radius:50px;
+    padding-left:9px;
+    border-style:solid rgb(14, 13, 13);
+    text-transform: uppercase;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+input:hover[type="submit"]{
+background-color:black;
+color:white;
+}
+
+textarea{
+    padding:9px;
+}
+
+#formulario{
+    width: 100%;
+    margin-top: 7%;
+    background-color: rgba(14, 13, 13, 0.267);
+    position: absolute;
+    border-radius: 0px;
+}
+
+.active a:hover{
+    background-color:lightgrey;
+    }
+
+a{
+    display:inline-block;
+color:black;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+background-color: lightgray;
+}
+
+a:hover{
+    background-color:black;
+    color:white;
+}
+
+/*Imagens*/
+.imagensGLR{
+    width: 400px;
+    height: 250px;
+}
